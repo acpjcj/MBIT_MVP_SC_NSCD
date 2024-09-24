@@ -17,4 +17,20 @@ Ejecución del Notebook:
  
 Es importante tener en cuenta la estructura de las carpetas y de los archivos en ellas para que la ejecución del archivo para colab funcione correctamente.
 
+Ejecución del prototipo (en local):
+
+1. Clonar o descargar este repositorio en tu drive.
+
+2. Crear un entorno de python 3.10.12
+
+EJ: conda create -n streamlit 
+
+EJ: conda activate streamlit
+
+3. Instalar los paquetes con 'pip install -r requirements.txt'
+
+4. Ejecutar streamlit desde la carpeta donde está alojado el prototipo
+
+EJ: streamlit run prototipo.py
+
 
